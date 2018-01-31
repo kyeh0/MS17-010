@@ -1,6 +1,8 @@
 # MS17-010 RCE PoC's
 
-All credits go out to [worawit](https://github.com/worawit/MS17-010). I've just added some usage clarifications and weaponized them to be more usable for pentesting purposes.
+All credits go out to [worawit](https://github.com/worawit/MS17-010) and [vivami](https://github.com/vivami/MS17-010).
+
+My goal is to add support for things like nthashes and more payload options.
 
 ## Eternalblue
 
