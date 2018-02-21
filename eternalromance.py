@@ -952,7 +952,7 @@ def service_exec(conn, cmd):
 	rpcsvc.disconnect()
 
 if len(sys.argv) < 5:
-	print("{} <IP> <Username> <SecretType:Secret> \"<Shell_Command>\"".format(sys.argv[0]))
+	print("{} <IP> <Username> <SecretType:Secret>(SecretType can be nthash or password)  \"<Shell_Command>\"".format(sys.argv[0]))
 	sys.exit(1)
 
 
